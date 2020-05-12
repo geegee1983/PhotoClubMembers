@@ -1,0 +1,13 @@
+PhotoClub pc = new PhotoClub();
+pc.populateMap();
+pc.addMember("005", "XYZ", "05.05.2020", "full");
+pc.printMap();
+pc.printMapValue("002");
+pc.printMapValue("000");
+Member mb = new Member("Gigi", "06.06.2020", "full");
+pc.addMapEntry("006", mb);
+pc.addMapEntry("001", mb);
+pc.deleteEntry("001");
+pc.deleteEntry("007");
+pc.selectValues("Full");
+pc.selectKeys("00");
